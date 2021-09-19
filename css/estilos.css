@@ -29,20 +29,10 @@ html{
 }
 
 body{
-    background: #373741;
+    background: #39c5cb;
     padding-left: 30rem;
 }
 
-body.active{
-    --black:#fff;
-    --light-color:#ddd;
-    --bg-color:#222;
-    --border:.1rem solid rgba(0,0,0,.4);
-    --box-shadow:.4rem .4rem 1rem #111,
-                -.4rem -.4rem 1rem #333;
-    --box-shadow-inset:.4rem .4rem 1rem #111 inset,
-                      -.4rem -.4rem 1rem #333 inset;
-}
 
 section{
     min-height: 100vh;
@@ -83,7 +73,7 @@ section{
     position: fixed;
     top:0; left: 0;
     z-index: 999;
-    background: #fdf9e2;
+    background: #d6fffc;
     width: 30rem;
     border-right: var(--border);
     height: 100%;
@@ -106,7 +96,7 @@ section{
 }
 
 .header .user p{
-    color: #bc815d;
+    color: #8d2aff;
     font-size: 1.5rem;
 }
 
